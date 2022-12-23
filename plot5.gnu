@@ -10,7 +10,5 @@ set grid ytics
 set key bottom
 
 
-
-
-plot [-5:58][-9:9]"p7.dat" i 8 u 2:3 w l lw 1 t "ɸ=0[rad], ω=2ω_n+0.03[rad/s]","p7.dat" i 9 u 2:3 w l lw 1 t"ɸ=0([Rad],ω=2ω_n-0.03[rad/s]"
+plot "P7-20-21-resf.dat"  i 6 u 2:3 w l lw 2 t "ɸ=0[rad], ω=2ω_n+0.05[rad/s]","P7-20-21-resf.dat"  i 7 u 2:3 w l lw 2 t"ɸ=0([Rad],ω=2ω_n-0.05[rad/s]"
 
